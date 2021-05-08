@@ -2,6 +2,8 @@ The Long Dark - AnselMod - v0.9.0 by Digitalzombie
 ===============================================================
 
 ATTENTION!!! MOD ONLY WORKS ON NVIDIA GRAPHIC CARDS !!!!
+===============
+
 
 How to install:
 ===============
@@ -24,8 +26,6 @@ This creates a new folder named "Mods" in your TLD folder.
 
 4. Start the game! 
 
-=============================================
-=============================================
 
 How to use:
 ===========
@@ -52,8 +52,6 @@ Known issues:
 
 Both will (probably) be fixed in a future update
 
-=============================================
-=============================================
 
 BUGS ARE TO BE EXPECTED!!!
 ===========================
@@ -61,10 +59,6 @@ BUGS ARE TO BE EXPECTED!!!
 TLD reddit:
 https://www.reddit.com/r/thelongdark/
 
-
-
-=============================================
-=============================================
 
 Changelog:
 ==========
