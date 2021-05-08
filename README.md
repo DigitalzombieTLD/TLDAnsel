@@ -12,17 +12,17 @@ https://github.com/HerpDerpinstine/MelonLoader/
 This creates a new folder named "Mods" in your TLD folder.
 
 2. Extract everything from the ZIP file to your new TLD folder (overwrite old files)
-	-> "AnselPlugin64.dll" needs to be placed in the same folder as your tld.exe
-	-> "AnselMod.dll" needs to be placed in your mods folder
+	- "AnselPlugin64.dll" needs to be placed in the same folder as your tld.exe
+	- "AnselMod.dll" needs to be placed in your mods folder
 
 3. Download and install "GeForce Experience" -> https://www.nvidia.com/en-us/geforce/geforce-experience/
 
 4. Download the "nvidiaProfileInspector" and unzip it -> https://github.com/Orbmu2k/nvidiaProfileInspector/releases/latest
 
 5. Open "nvidiaProfileInspector.exe"
-	-> Scroll to category "5 - Common" and set "Enable Ansel" to "ON"
-	-> Scroll to category "Other" and set "Ansel flags for enabled applications" to "0x00000001 ANSEL_WHITELISTED_ALLOWED"
-	-> Click on "Apply changes" on the top right of the window and close the program
+	- Scroll to category "5 - Common" and set "Enable Ansel" to "ON"
+	- Scroll to category "Other" and set "Ansel flags for enabled applications" to "0x00000001 ANSEL_WHITELISTED_ALLOWED"
+	- Click on "Apply changes" on the top right of the window and close the program
 
 4. Start the game! 
 
