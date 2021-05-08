@@ -34,26 +34,7 @@ namespace AnselMod
 		{
 			AnselModActionMain.AnselModActionUpdate();
 
-			if (InputManager.GetKeyDown(InputManager.m_CurrentContext, KeyCode.Keypad1))
-			{
-				MelonLogger.Log("Offset: " + fovOffset);
-				fovOffset++;
-			}
-
-			if (InputManager.GetKeyDown(InputManager.m_CurrentContext, KeyCode.Keypad3))
-			{
-				MelonLogger.Log("Offset: " + fovOffset);
-				fovOffset--;
-			}
+		
 		}
-
-		[HarmonyPatch(typeof(vp_FPSCamera), "UpdateCameraRotation")]
-        public class CAMPATCH
-        {
-            public static void Prefix()
-            {
-                //MelonLogger.Log("Override called!!!");
-            }
-        }
 	}
 }

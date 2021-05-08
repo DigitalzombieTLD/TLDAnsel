@@ -368,16 +368,8 @@ namespace NVIDIA
 
 
 				// Camera
-				// Transform trans = mainCam.transform;
-				// anselCam.fov = mainCam.fieldOfView;
-
 				Transform trans = mainCam.transform;
 				anselCam.fov = mainCam.fieldOfView;
-
-
-
-
-
 
 
 				// Matrix
