@@ -2,17 +2,17 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using MelonLoader;
-using JumpMod;
+using AnselMod;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: MelonInfo(typeof(JumpModMain), "JumpMod", "0.9.0", "Digitalzombie", "")]
+[assembly: MelonInfo(typeof(AnselModMain), "AnselMod", "0.9.0", "Digitalzombie", "")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]
-[assembly: AssemblyTitle("JumpMod")]
-[assembly: AssemblyDescription("Jump around")]
+[assembly: AssemblyTitle("AnselMod")]
+[assembly: AssemblyDescription("Do you want to get Ansel? Because thats how you get Ansel.")]
 [assembly: AssemblyCompany("Digitalzombie")]
-[assembly: AssemblyProduct("JumpMod")]
+[assembly: AssemblyProduct("AnselMod")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from

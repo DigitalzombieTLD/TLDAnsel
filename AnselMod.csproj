@@ -7,8 +7,8 @@
     <ProjectGuid>{288B5E55-E8EC-46EC-A841-FD543EF5B1B8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JumpMod</RootNamespace>
-    <AssemblyName>JumpMod</AssemblyName>
+    <RootNamespace>AnselMod</RootNamespace>
+    <AssemblyName>AnselMod</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -39,66 +39,10 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2Cppmscorlib">
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem">
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\Il2CppSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem.Core, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\Il2CppSystem.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="MelonLoader.ModHandler, Version=0.2.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\MelonLoader.ModHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="ModSettings">
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\Mods\ModSettings.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-    <Reference Include="UnhollowerBaseLib">
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
-    </Reference>
-    <Reference Include="UnhollowerRuntimeLib">
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnhollowerRuntimeLib.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AnimationModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnityEngine.AnimationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ImageConversionModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PhysicsModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="JumpModAction.cs" />
-    <Compile Include="JumpModInputs.cs" />
-    <Compile Include="JumpMod.cs" />
+    <Compile Include="Ansel.cs" />
+    <Compile Include="AnselModAction.cs" />
+    <Compile Include="AnselMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="JumpModSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -106,7 +50,62 @@
   <ItemGroup>
     <Analyzer Include="_References\MelonLoader\MelonLoader.ModHandler.dll" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader.ModHandler, Version=0.2.7.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\MelonLoader.ModHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader.Support.Il2Cpp">
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Dependencies\SupportModules\MelonLoader.Support.Il2Cpp.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader.Support.Mono">
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Dependencies\SupportModules\MelonLoader.Support.Mono.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="UnhollowerBaseLib, Version=0.4.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Dependencies\AssemblyGenerator\UnityDependencies\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>G:\Games\Steam\steamapps\common\TheLongDark\MelonLoader\Dependencies\AssemblyGenerator\UnityDependencies\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
