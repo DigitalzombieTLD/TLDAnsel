@@ -59,6 +59,12 @@ BUGS ARE TO BE EXPECTED!!!
 TLD reddit:
 https://www.reddit.com/r/thelongdark/
 
+TLD modding discord:
+https://discord.gg/AqpW9TjUfr
+
+My YT channel:
+https://www.youtube.com/channel/UCYRu_uDOzozbXIXKGrznHxQ
+
 
 Changelog:
 ==========
